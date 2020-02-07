@@ -1,0 +1,204 @@
+﻿/*Global Stuff*/
+html, body{
+    height:100%;
+}
+.headerstyle {
+    font-size: 50px;
+    font-family: 'Nirmala UI';
+    font-weight: 100;
+    color: aliceblue;
+}
+
+.headerstyle2 {
+    font-size: 25px;
+    font-family: 'Nirmala UI';
+    font-weight: 100;
+    color: aliceblue;
+}
+
+p a{
+    color:aqua;
+}
+
+
+
+
+    
+body {
+        background-image: url("/images/carlights.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin:0;
+        padding:0;
+    }
+
+    .container {
+        width:75%;
+        margin:auto;
+    }
+   
+
+
+    #intro2{
+        font-size:20px;
+        font-family:Verdana;
+        font-weight:500;
+        color:aliceblue
+    }
+
+
+#mypic {
+    /*height to width ratio:     1.5*/
+    height: 135%;
+    width: 90%;
+    transform: rotate(-90deg);
+    border-radius:75%;
+    margin-top:15%;
+    margin-bottom:10%;
+    margin-left:-18%;
+}
+
+#socialul{
+    list-style:none;
+    margin-left:-4%;
+}
+
+#facebooklogo, #twitterlogo, #instagramlogo, #linkedinlogo{
+    width:15%;
+    height:15%;
+}
+
+
+nav {
+    border-bottom-style:ridge;
+    height: 115px;
+    line-height: 500%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+    nav ul{
+        text-align:center;
+        margin:auto;
+        text-align:right;
+    }
+
+
+            nav ul li {
+                display:inline-block;
+                list-style-type: none;
+                transition: 0.7s all;
+                padding-top:15px;
+                height:100px;
+               
+            }
+
+                nav ul li:hover {
+                    background-color: ActiveCaption;
+                }
+
+                nav ul li a {
+                    text-decoration: none;
+                    color: azure;
+                    padding: 50px;
+                    font-family: Verdana;
+                }
+
+
+                
+
+    #socialul li{
+        display:inline;
+        padding:50px;
+        margin-left:-4.5%;
+    }
+
+footer {
+   width:75%;
+   margin:auto;
+   color:aliceblue;
+}
+
+#about, #projects, #contact {
+    display:none;
+}
+
+
+#mainsection {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    font-family: Verdana;
+    width: 75%;
+    margin: auto;
+    height: 80%;
+    overflow:auto;
+}
+
+#mainarticle{
+    float:left;
+    width:50%;
+}
+
+#sidebar{
+    float:right;
+    width:50%;
+    margin-top:5%;
+    line-height: 3.0;
+}
+
+
+
+/*#skillsChart{
+    height:300px;
+    width:500px;
+    border:1px solid;
+}*/
+
+#mainsection ul li a {
+    text-decoration:dotted;
+}
+
+#mailtolink:link, visited, hover, active{
+    color:aqua;
+}
+
+.onlinesupermarketpics{
+    width:100%;
+    height:56.25%;
+}
+
+#technologiespic{
+   border:none;
+}
+
+
+/*media queries*/
+
+
+@media(max-width:900px){
+    header,
+    header ul,
+    header ul li{
+        float:none;
+    }
+
+    #header{
+    
+    }
+
+    .container nav{
+        overflow-y:scroll;
+        overflow-x:hidden;
+    }
+
+     .container nav ul{
+       
+     }
+
+    .container nav ul li
+    {
+        display: block;
+        text-align:center;
+        overflow:auto;
+    }
+}
+

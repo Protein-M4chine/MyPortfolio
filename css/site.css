@@ -1,0 +1,311 @@
+/*Global Stuff*/
+html, body{
+    height:100%;
+}
+
+html *
+{
+   font-family: "Nirmala UI" !important;
+}
+
+.headerstyle {
+    font-size: 50px;
+    font-family: 'Nirmala UI';
+    font-weight: 100;
+    color: aliceblue;
+}
+
+.headerstyle2 {
+    font-size: 35px;
+    font-family: 'Nirmala UI';
+    font-weight: 100;
+    color: aliceblue;
+}
+
+.headerstyle3 {
+    font-size: 25px;
+    font-family: 'Nirmala UI';
+    font-weight: 100;
+    color: aliceblue;
+}
+
+
+.headerstyle3 {
+    font-size: 20px;
+    font-family: 'Nirmala UI';
+    font-weight: 100;
+    color: aliceblue;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color:aqua;
+}
+
+
+body {
+        /*background-image: url("/images/carlights.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin:0;
+        padding:0;
+        */
+        background-image: linear-gradient(to right, aqua, blue);
+        margin-top: 0;
+        /*margin-top: 0;*/
+    }
+
+    .container {
+        width:75%;
+        margin:auto;
+    }
+   
+#header{
+    margin-top: 0%;
+}
+
+    #intro2{
+        font-size:20px;
+        font-family:'Nirmala UI';
+        font-weight:500;
+        color:aliceblue
+    }
+
+
+#mypic {
+    /*height to width ratio:     1.5*/
+    height: 135%;
+    width: 90%;
+    transform: rotate(-90deg);
+    border-radius:75%;
+    margin-top:15%;
+    margin-bottom:10%;
+    margin-left:-18%;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+}
+
+#socialul{
+    list-style:none;
+    margin-left:-4%;
+}
+
+#facebooklogo, #twitterlogo, #instagramlogo, #linkedinlogo, #githublogo{
+    width:15%;
+    height:15%;
+}
+
+.dropdown{
+    display:none;
+}
+
+navdiv{
+    height:100%;
+}
+
+nav {
+    border-bottom-style:ridge;
+    line-height: 500%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+    nav ul{
+        margin:auto;
+        text-align:right;
+    }
+
+
+            nav ul li {
+                display:inline-block;
+                list-style-type: none;
+                transition: 0.7s all;
+                padding-top:15px;
+                height:100px;
+               
+            }
+
+                nav ul li:hover {
+                    background-color: ActiveCaption;
+                }
+
+                nav ul li a {
+                    text-decoration: none;
+                    color: azure;
+                    padding: 50px;
+                    font-family: 'Nirmala UI'
+                }
+.indent{
+    text-indent:40px;
+}
+
+
+                
+
+    #socialul li{
+        display:inline;
+        padding:50px;
+        margin-left:-6%;
+    }
+
+footer {
+   width:75%;
+   margin:auto;
+   color:aliceblue;
+}
+
+#about, #projects, #contact {
+    display:none;
+}
+
+
+#mainsection {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    font-family: Verdana;
+    width: 75%;
+    margin: auto;
+    height: 80%;
+    overflow:auto;
+}
+
+#mainarticle{
+    float:left;
+    width:50%;
+}
+
+#sidebar{
+    float:right;
+    width:50%;
+    margin-top:5%;
+    line-height: 3.0;
+}
+
+
+
+/*#skillsChart{
+    height:300px;
+    width:500px;
+    border:1px solid;
+}*/
+
+#mainsection ul li a {
+    text-decoration:dotted;
+}
+
+#mailtolink:link, visited, hover, active{
+    color:aqua;
+}
+
+.onlinesupermarketpics{
+    width:100%;
+    height:56.25%;
+}
+
+#technologiespic{
+   border:none;
+}
+
+
+/*media queries*/
+
+
+@media screen and (max-width:900px){
+    header,
+    header ul,
+    header ul li{
+        float:none;
+        margin:auto;
+    }
+    
+    #header{
+
+    }
+
+    #nav {
+
+    }
+
+    #nav ul{
+        display:inline;
+        padding:0;
+        overflow:hidden;
+    }
+    
+    #nav ul li{
+        text-align:center;
+        font-size:75%;
+        margin:0;
+    }
+    
+    #nav ul li a{
+        text-align:center;
+        width:100%;
+        padding:0px;
+        height:100%;
+        text-decoration:none;
+        display:block;
+        margin-top:0;
+        padding-top:0;
+    }
+    
+
+    
+    #homelineitem{
+        width: 24%;
+    }
+    
+    #aboutlineitem{
+        width: 24%;
+    }
+    
+    #projectslineitem{
+        width: 24%;
+    }
+    
+    #contactlineitem{
+        width: 24%;
+    }
+    
+    #mainarticle{
+        float:none;
+        margin:auto;
+        width:85%;
+        text-align:center;
+        margin-bottom:50px;
+    }
+    
+    #mypic{
+   
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #sidebar{
+        float:none;
+        margin:auto;
+        width:85%;
+        margin-top:50px;
+    }
+    
+    .container{
+        width:90%;
+    }
+    
+    #mainsection {
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    font-family: Verdana;
+    width: 90%;
+    margin: auto;
+    height: 80%;
+    overflow:auto;
+    }
+   #footer {
+   width:75%;
+   margin:auto;
+   color:aliceblue;
+   }
+}
+
