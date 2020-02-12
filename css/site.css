@@ -79,9 +79,7 @@ body {
     /*height to width ratio:     1.5*/
     height: 135%;
     width: 90%;
-    transform: rotate(-90deg);
     border-radius:75%;
-    margin-top:15%;
     margin-bottom:10%;
     margin-left:-18%;
     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
