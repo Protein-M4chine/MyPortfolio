@@ -4,26 +4,26 @@
 
 function showHomePage() {
     $("#home").show(750);
-    $("#about").hide();
+    $("#services").hide();
     $("#projects").hide();
     $("#contact").hide();
 
     localStorage.setItem("pageHolder", "home");
 }
 
-function showAboutPage() {
-    $("#about").show(750);
+function showServicesPage() {
+    $("#services").show(750);
     $("#home").hide();
     $("#projects").hide();
     $("#contact").hide();
 
-    localStorage.setItem("pageHolder", "about");
+    localStorage.setItem("pageHolder", "services");
 }
 
 function showProjectsPage() {
     $("#projects").show(750);
     $("#home").hide();
-    $("#about").hide();
+    $("#services").hide();
     $("#contact").hide();
 
     localStorage.setItem("pageHolder", "projects");
@@ -32,7 +32,7 @@ function showProjectsPage() {
 function showContactPage() {
     $("#contact").show(750);
     $("#home").hide();
-    $("#about").hide();
+    $("#services").hide();
     $("#projects").hide();
 
     localStorage.setItem("pageHolder", "contact");
@@ -56,7 +56,7 @@ $(document).ready(function () {
         if (localStorage.pageHolder == "home") {
             showHomePage();
         }
-        else if (localStorage.pageHolder == "about") {
+        else if (localStorage.pageHolder == "services") {
             showAboutPage();
         }
         else if (localStorage.pageHolder == "projects") {
@@ -74,8 +74,8 @@ $(document).ready(function () {
         showHomePage();
     });
 
-    $(".aboutlink").click(function () {
-        showAboutPage();
+    $(".serviceslink").click(function () {
+        showServicesPage();
     });
 
     $(".projectslink").click(function () {
